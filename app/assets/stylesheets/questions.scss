@@ -1,0 +1,79 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	color: darkgray;
+	font-size: 14pt;
+	margin: 10px 20px;
+}
+
+h1 {
+	color: darkgray;
+	font-size: 28pt;
+	margin: 30px 0px 70px 0px;
+	text-align: right;
+}
+
+a {
+	color: darkgray;
+	text-decoration: none;
+}
+a:hover {
+	color: darkgray;
+	text-decoration: underline;
+}
+
+table.qlist {
+	width:90%;
+}
+
+table tr th {
+	background: #909090;
+	color: #f6f6f6;
+	padding: 10px;
+	font-size: 12pt;
+	font-weight:bold;
+}
+
+table tr td {
+	background: #f6f6f6;
+	color: #909090;
+	padding: 5px 10px;
+	font-size: 14pt;
+}
+
+.answer_form {
+	border: 1px solid lightgray;
+	margin: 20px;
+	padding: 20px;
+}
+
+.question {
+	border: 1px solid lightgray;
+	margin: 20px;
+	padding: 20px;
+}
+
+.answer {
+	border: 1px solid lightgray;
+	margin: 20px;
+	padding: 20px;
+}
+.finished {
+	padding:5px;
+	color: white;
+	background: lightgray;
+	font-weight: bold;
+}
+
+.not_finished {
+	padding:5px;
+	color: white;
+	background: red;
+	font-weight: bold;
+}
+.field label {
+	display: block;
+	float:left;
+	width: 100px;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>appweb</title>
+		<%= csrf_meta_tags %>
+
+
+		<%= stylesheet_link_tag 'questions', 
+			'data-turbolinks-track': 'reload' %>
+		<%= javascript_include_tag 'questions', 
+			'data-turbolinks-track': 'reload' %>
+	</head>
+
+
+	<body>
+		<%= yield %>
+	</body>
+</html>

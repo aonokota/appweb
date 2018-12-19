@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+
+<h1>質問リスト</h1>
+
+
+<table class="qlist">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Finished</th>
+			<th></th>
+		</tr>
+	</thead>
+
+
+	<tbody>
+		<% @questions.each do |question| %>
+			<tr>
+				<td><%= question.title %></td>
+				<td><%= question.finished ? '終了' : '受付中' %></td>
+				<td><%= link_to 'Show', question %></td>
+				
+			</tr>
+		<% end %>
+	</tbody>
+</table>
+
+
+<br>
+
+
+<%= link_to '※新たに質問する', new_question_path %>
